@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
-  "scripts": {
+  "scripts":{
     "start": "set NODE_ENV=development&&webpack-dev-server",
     "build": "set NODE_ENV=production&&webpack -p"
   },
@@ -19,5 +21,7 @@
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-serve": "^3.2.0"
-  }
+  },
+  "repository": "https://github.com/bnnb220/WordCloud.git",
+  "author": "bnnb220 <syj4209@naver.com>"
 }
